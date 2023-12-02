@@ -1,0 +1,109 @@
+// we can add this to custom namespace, default is 'el'
+@forward "element-plus/theme-chalk/src/mixins/config.scss" with (
+  $namespace: "ep"
+);
+
+// You should use them in scss, because we calculate it by sass.
+// comment next lines to use default color
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  // do not use same name, it will override.
+  $colors:
+    (
+      "primary": (
+        "base": #bdc3c7,
+      ),
+      "success": (
+        "base": #21ba45,
+      ),
+      "warning": (
+        "base": #f2711c,
+      ),
+      "danger": (
+        "base": #db2828,
+      ),
+      "error": (
+        "base": #db2828,
+      ),
+      "info": (
+        "base": #fff,
+      )
+    ),
+
+  $text-color: (
+    "primary": #fff,
+    "regular": #fff,
+    "secondary": #fff,
+    "placeholder": #fff,
+    "disabled": #fff
+  ),
+
+  $border-color: (
+    "": #dcdfe6,
+    "light": #e4e7ed,
+    "lighter": #ebeef5,
+    "extra-light": #f2f6fc,
+    "dark": #d4d7de,
+    "darker": #cdd0d6
+  ),
+  $statistic: ("title-font-size": 20px, "content-font-size": 40px),
+  $fill-color: (
+    "": #f0f2f5,
+    "light": linear-gradient(#bdc3c7, #2c3e50),
+    "lighter": #fafafa,
+    "extra-light": #010102,
+    "dark": #ebedf0,
+    "darker": #e6e8eb,
+    "blank": linear-gradient(#bdc3c7, #2c3e50)
+  ),
+  $table: ("row-hover-bg-color": rgba(0, 0, 0, 0.5)),
+  $menu: ("hover-bg-color": rgba(0, 0, 0, 0.1)),
+  $select: ("close-hover-color": #fff),
+  $select-option: (
+    "hover-background": rgba(255, 255, 255, 0.5),
+    "selected-text-color": rgba(0, 0, 0, 0.5)
+  ),
+  $select-dropdown: (
+    "bg-color": linear-gradient(#bdc3c7, #2c3e50),
+    "shadow": none
+  ),
+  $cascader: (
+    "node-background-hover": rgba(255, 255, 255, 0.5),
+    "menu-selected-text-color": rgba(0, 0, 0, 0.5)
+  ),
+  $pagination: ("bg-color": none),
+  $button: ("hover-bg-color": linear-gradient(#bdc3c7, #2c3e50)),
+  $bg-color: (
+    "": linear-gradient(#bdc3c7, #2c3e50),
+    "page": linear-gradient(#bdc3c7, #2c3e50),
+    "overlay": linear-gradient(#bdc3c7, #2c3e50)
+  ),
+  $border-radius: ("base": 4px, "small": 2px, "round": 20px, "circle": 100%),
+  $font-family: (
+    "":
+      "'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif"
+  ),
+
+  $font-size: (
+    "extra-large": 20px,
+    "large": 18px,
+    "medium": 16px,
+    "base": 14px,
+    "small": 13px,
+    "extra-small": 12px
+  ),
+
+  $mask-color: (
+    "": rgba(255, 255, 255, 0.9),
+    "extra-light": rgba(255, 255, 255, 0.3)
+  ),
+  $button-padding-horizontal: ("default": 50px)
+);
+
+// if you want to import all
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+
+// You can comment it to hide debug info.
+// @debug $--colors;
+
+// custom dark variables
+@use "./dark.scss";

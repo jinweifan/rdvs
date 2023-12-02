@@ -1,0 +1,20 @@
+#host: 39.105.2.205
+#username: reddy
+#password: Reddyfan2021@
+host: 1.116.250.241
+username: root
+password: Melon2021@
+
+mysql:
+  port: 3306
+  user: root
+  password: melon2021
+
+mongo:
+  port: 27107
+  auth_user: admin
+  auth_password: melon2021
+  auth_db: admin
+  db: rdvs
+
+

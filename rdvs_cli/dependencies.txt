@@ -1,0 +1,31 @@
+rdvs_cli@0.0.0 /Users/reddyfan/code/proj/rdvs/rdvs_cli
+├── @element-plus/icons-vue@2.1.0
+├── @iconify-json/ep@1.1.10
+├── @rushstack/eslint-patch@1.2.0
+├── @types/node@18.15.11
+├── @vitejs/plugin-vue@4.1.0
+├── @vue/eslint-config-typescript@11.0.2
+├── @vue/tsconfig@0.1.3
+├── autopreview@1.0.0 extraneous
+├── axios@1.3.4
+├── dayjs@1.11.7
+├── default-passive-events@2.0.0
+├── echarts@5.4.2
+├── element-plus@2.3.2
+├── eslint-plugin-vue@9.10.0
+├── eslint@8.37.0
+├── lib-flexible@0.3.2
+├── npm-run-all@4.1.5
+├── pinia@2.0.33
+├── prettier@2.8.4
+├── qs@6.11.1
+├── sass@1.60.0
+├── typescript@4.8.4
+├── unocss@0.50.6
+├── unplugin-element-plus@0.7.0
+├── unplugin-vue-components@0.24.1
+├── vite@4.2.1
+├── vue-router@4.1.6
+├── vue-tsc@1.2.0
+└── vue@3.2.47
+

@@ -1,0 +1,17 @@
+
+host: 39.105.2.205
+username: reddy
+password: Reddyfan2021@
+
+mysql:
+  port: 3306
+  user: root
+  password: Reddyfan2020@
+
+mongo:
+  port: 27107
+  auth_user: admin
+  auth_password: 123456
+  auth_db: admin
+
+
